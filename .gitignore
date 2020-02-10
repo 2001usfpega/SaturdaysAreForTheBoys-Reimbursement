@@ -32,4 +32,4 @@ bin/
 .idea/
 out/
 *.iml
-db.properties
+src/main/webapp/WEB-INF/db.properties

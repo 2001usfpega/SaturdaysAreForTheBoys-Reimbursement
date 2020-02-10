@@ -2,6 +2,7 @@ package com.revature.DAO;
 
 import com.revature.model.Employee;
 import com.revature.model.ExpenseReimbursement;
+import com.sun.media.jfxmedia.logging.Logger;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -67,7 +68,7 @@ public class ExpenseReimbursementDAOImplementation implements ExpenseReimburseme
             ps.setString(6, description);
             ps.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
     }
 
